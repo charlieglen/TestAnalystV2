@@ -75,14 +75,14 @@ namespace TestAnalyst2023.Features
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Create time and material record with valid details")]
+        [NUnit.Framework.DescriptionAttribute("01) Create time and material record with valid details")]
         [NUnit.Framework.CategoryAttribute("tag1")]
-        public void CreateTimeAndMaterialRecordWithValidDetails()
+        public void _01CreateTimeAndMaterialRecordWithValidDetails()
         {
             string[] tagsOfScenario = new string[] {
                     "tag1"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Create time and material record with valid details", null, tagsOfScenario, argumentsOfScenario, featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("01) Create time and material record with valid details", null, tagsOfScenario, argumentsOfScenario, featureTags);
 #line 8
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -110,18 +110,18 @@ this.ScenarioInitialize(scenarioInfo);
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Edit existing time and material record with valid details")]
+        [NUnit.Framework.DescriptionAttribute("02) Edit existing time and material record with valid details")]
         [NUnit.Framework.TestCaseAttribute("Time", "test", "20", null)]
         [NUnit.Framework.TestCaseAttribute("Material", "keyboard", "30", null)]
         [NUnit.Framework.TestCaseAttribute("EditedRecord", "mouse", "40", null)]
-        public void EditExistingTimeAndMaterialRecordWithValidDetails(string description, string code, string prices, string[] exampleTags)
+        public void _02EditExistingTimeAndMaterialRecordWithValidDetails(string description, string code, string prices, string[] exampleTags)
         {
             string[] tagsOfScenario = exampleTags;
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             argumentsOfScenario.Add("Description", description);
             argumentsOfScenario.Add("Code", code);
             argumentsOfScenario.Add("Prices", prices);
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Edit existing time and material record with valid details", null, tagsOfScenario, argumentsOfScenario, featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("02) Edit existing time and material record with valid details", null, tagsOfScenario, argumentsOfScenario, featureTags);
 #line 14
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -149,12 +149,12 @@ this.ScenarioInitialize(scenarioInfo);
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Delete the last time and material record created")]
-        public void DeleteTheLastTimeAndMaterialRecordCreated()
+        [NUnit.Framework.DescriptionAttribute("03) Delete the last time and material record created")]
+        public void _03DeleteTheLastTimeAndMaterialRecordCreated()
         {
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Delete the last time and material record created", null, tagsOfScenario, argumentsOfScenario, featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("03) Delete the last time and material record created", null, tagsOfScenario, argumentsOfScenario, featureTags);
 #line 27
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
